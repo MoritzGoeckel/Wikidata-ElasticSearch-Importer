@@ -6,7 +6,7 @@ This is a little script that imports the Wikidata JSON dump into an ElasticSearc
 
 The data transformation is done in the function 'parseLine' in the import script. Feel free to adapt it to your purposes. (If you do so, dont forget to change the mapping accordingly) The following quote shows the current data format I am using.
 
-```json
+```
 {
   "id": "",
   "type": "",
